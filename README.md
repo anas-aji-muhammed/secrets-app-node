@@ -37,7 +37,7 @@ Compared to MD5, bcrypt with salt is much more secure for password storage becau
 </div>
 [Secret-App-V3-Bcrypt]: (https://github.com/anas-aji-muhammed/secrets-app-node/tree/v3-bcrypt-salting)
 
-## Level 3 - Bcrypt Hashing with salting rounds
+## Level 3 - Paasport.js authentication
 <div align="justify">
 
 This version of secret app uses **Passport.js** for authentication. Specifically, the project utilizes **passport-local-mongoose** for password hashing and user authentication and express-session for session management.
