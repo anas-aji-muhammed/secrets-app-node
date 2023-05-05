@@ -7,6 +7,7 @@ This version of Node.js security project implements encryption of sensitive data
 - **.env files**: A configuration file format commonly used in Node.js projects that allows developers to define and manage environment variables, including sensitive data such as API keys and passwords. Using .env files helps to keep sensitive information out of your codebase and improves security by keeping your secrets separate from your code.
 </div>
 [Secret-App-V1]: (https://github.com/anas-aji-muhammed/secrets-app-node/tree/v1-mongoose-ecryption-with-env-file)
+
 ## Level 2 - Hashing passwords with MD5 
 <div align="justify">
 In this version of the project I have used MD5 hashing to securely store user passwords in a MongoDB database. MD5 hashing is a widely-used cryptographic hash function that creates a fixed-length hash value from input data, making it ideal for password storage.
