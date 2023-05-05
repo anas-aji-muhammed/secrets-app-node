@@ -1,3 +1,6 @@
+# Security and authentication
+A minimalistic version of whisper app is developed in this project with different levels of authentication and security features. The web app contains a homepage, login, register, view secrets and submit secrets pages.
+
 ## Level 1 - Mongoose security and .env files
 <div align="justify">
 
