@@ -37,3 +37,19 @@ Compared to MD5, bcrypt with salt is much more secure for password storage becau
 </div>
 [Secret-App-V3-Bcrypt]: (https://github.com/anas-aji-muhammed/secrets-app-node/tree/v3-bcrypt-salting)
 
+## Level 3 - Bcrypt Hashing with salting rounds
+<div align="justify">
+
+This version of secret app uses **Passport.js** for authentication. Specifically, the project utilizes **passport-local-mongoose** for password hashing and user authentication and express-session for session management.
+
+- **passport-local-mongoose** simplifies the process of adding user authentication to a Node.js application by providing a pre-built User model and methods for hashing and validating passwords. This makes it easier to set up a secure authentication system without having to write boilerplate code.
+
+- **express-session** is a middleware for Express.js that provides session management capabilities. It works by storing session data on the server and associating a unique session ID with each user. This allows users to maintain their login session across multiple requests without having to re-enter their credentials each time.
+
+- **Passport.js** is a popular authentication middleware for Node.js that provides a flexible and modular way to add authentication to an application. It provides a wide range of authentication strategies, including local authentication using a username and password, as well as third-party authentication using services like Google and Facebook.
+
+Together, passport-local-mongoose, express-session, and Passport.js provide a powerful and secure way to manage user authentication and login sessions in a Node.js application.
+
+</div>
+[Secret-App-V4-cookies-passportjs]: (https://github.com/anas-aji-muhammed/secrets-app-node/tree/v4-cookies-sessions)
+
