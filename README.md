@@ -53,3 +53,18 @@ Together, passport-local-mongoose, express-session, and Passport.js provide a po
 </div>
 [Secret-App-V4-cookies-passportjs]: (https://github.com/anas-aji-muhammed/secrets-app-node/tree/v4-cookies-sessions)
 
+
+## Level 5 - oAuth2.0 and social login
+
+<div align="justify">
+
+This version of secret app uses **passport-google-oauth20** package for authentication. Specifically, the project utilizes **Google Sign-In API** to allow users to sign in to the application using their Google account, and passport-google-oauth20 package for managing the OAuth 2.0 authentication flow.
+
+passport-google-oauth20 simplifies the process of adding Google Sign-In authentication to a Node.js application by providing a pre-built strategy for Google's OAuth 2.0 API. This strategy includes methods for retrieving a user's Google profile information and handling the authentication flow, making it easier to set up a secure authentication system without having to write boilerplate code.
+
+The application also uses Google Sign-In sessions to maintain login sessions across multiple requests. This works by storing session data on the server and associating a unique session ID with each user, allowing users to remain authenticated even if they leave the application and return later.
+
+</div>
+[Secret-App-V5-Google-Sigin]: (https://github.com/anas-aji-muhammed/secrets-app-node/tree/v5-oauth)
+
+
